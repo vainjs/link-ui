@@ -1,0 +1,20 @@
+{
+  "name": "docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev . --host 0.0.0.0",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.json",
+    "build": "vitepress build .",
+    "preview": "vitepress preview . --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@scope/link-ui": "workspace:*",
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vue-tsc": "^2.2.10"
+  }
+}

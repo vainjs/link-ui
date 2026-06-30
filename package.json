@@ -1,0 +1,27 @@
+{
+  "name": "link-ui-workspace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "turbo run dev --filter=playground",
+    "docs:dev": "turbo run dev --filter=docs",
+    "build": "turbo run build",
+    "docs:build": "turbo run build --filter=docs",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vue/test-utils": "^2.4.6",
+    "vite": "^6.3.5",
+    "vite-plugin-dts": "^4.5.4",
+    "vitepress": "^1.6.3",
+    "vitest": "^3.2.4",
+    "jsdom": "^25.0.1",
+    "less": "^4.2.2",
+    "turbo": "^2.5.4",
+    "vue": "^3.5.17",
+    "vue-tsc": "^2.2.10",
+    "typescript": "^5.8.3"
+  }
+}

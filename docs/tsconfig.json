@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["vite/client"],
+    "paths": {
+      "@scope/link-ui": ["../packages/web/src/index.ts"],
+      "@scope/link-ui/*": ["../packages/web/src/*"]
+    }
+  },
+  "include": [".vitepress/**/*.ts", "**/*.vue"]
+}
